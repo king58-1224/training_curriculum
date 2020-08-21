@@ -11,7 +11,6 @@ class CalendarsController < ApplicationController
     Plan.create(plan_params)
     redirect_to action: :index
   end
-#test
   private
 
   def plan_params
